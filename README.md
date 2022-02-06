@@ -4,8 +4,8 @@
 
 - In this project, I use the Perceptron Classifier to clasifiy the images in MNIST_784 dataset.
 - I do this in two steps:
-  - Firstly, I build a binary classifier to classify digits labeled $0$ and not $0$.
-  - Secondly, I combine this classifer 10 times to classify all $10$ digits in a "One vs All" fashion to build a multi-class classifier.
+  - Firstly, I build a binary classifier to classify digits labeled '0' and 'not 0'$.
+  - Secondly, I combine this classifer 10 times to classify all 10 digits in a "One vs All" fashion to build a multi-class classifier.
 - I also test the models with and without cross-validations.
 - I also evaluate the models via various metrics and also tried tweaking the threshold to improve the 'Precision' by looking at the PR-Curves.
 - I also analyze Precision-Recall in detail.
